@@ -1,0 +1,61 @@
+body {
+    background-color:#f5d9d5;
+}
+.bulrb h2 {
+    color:red;
+    font-weight:100;
+    font-size:2rem;
+}
+.bulrb p {
+    color:#f498b8;
+    font-weight:100;
+    font-size:1.125;
+    line-height:2;
+}
+.content {
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#mainNavbar {
+    font-size:1.5 rem;
+    font-weight:100;
+}
+#mainNavbar .nav-link {
+    color:white;
+}
+#mainNavbar .nav-link:hover {
+    color:red;
+}
+#mainNavbar .navbar-brand {
+    color:#ea1c2c;
+    font-size:1.5 rem;
+    font-weight:100;
+} 
+img {
+    align-items:end;
+    height:500;
+    width:600;
+}
+#headingGroup span {
+    color:red;
+}
+#headingGroup h1 {
+    font-weight:100;
+    font-size:4rem;
+}
+.navbar.scrolled {
+    background:magenta;
+    transition:background 500ms;
+}
+
+@media(max-width: 1200px) {
+    body{
+        background-color:orange;
+    }
+}
+@media(max-width:1200px) {
+    #headingGroup h1 {
+        font-weight:100;
+        font-size:4rem;
+    }
+}
